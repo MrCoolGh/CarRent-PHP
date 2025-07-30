@@ -1,0 +1,112 @@
+[01-Jul-2025 11:01:29 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:02:30 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:02:30 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:03:03 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:03:04 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:05:31 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:05:31 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:05:37 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:05:37 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:05:59 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:05:59 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:06:30 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:06:30 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:07:09 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:07:09 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:07:14 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:07:14 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:07:30 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:07:30 Europe/Berlin] Error in deleteUser: Cannot delete or update a parent row: a foreign key constraint fails (`rentcar`.`rental_forms`, CONSTRAINT `rental_forms_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+[01-Jul-2025 11:08:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function updateUserProfile() in C:\xampp\htdocs\NEWCAR\admin\adminprofile.php:75
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\admin\adminprofile.php on line 75
+[01-Jul-2025 11:08:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function updateUserProfile() in C:\xampp\htdocs\NEWCAR\admin\adminprofile.php:75
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\admin\adminprofile.php on line 75
+[01-Jul-2025 11:16:33 Europe/Berlin] Attempting to delete user with ID: 21
+[01-Jul-2025 11:18:05 Europe/Berlin] Booking submission: {"action":"create_booking","pickup_location":"Our Office","pickup_date":"2025-07-02","dropoff_date":"2025-07-24","customer_note":"A","total_days":"23","total_amount":"276"}
+[01-Jul-2025 11:18:05 Europe/Berlin] Creating booking: User=3, Car=10, Days=23, Amount=276
+[01-Jul-2025 11:18:53 Europe/Berlin] Attempting to delete user with ID: 3
+[01-Jul-2025 11:22:03 Europe/Berlin] Attempting to delete user with ID: 12
+[01-Jul-2025 12:11:59 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\NEWCAR\admin\managecars.php on line 65
+[01-Jul-2025 12:12:30 Europe/Berlin] Booking submission: {"action":"create_booking","pickup_location":"Our Office","pickup_date":"2025-07-01","dropoff_date":"2025-07-02","customer_note":"23ewsa","total_days":"2","total_amount":"24"}
+[01-Jul-2025 12:12:30 Europe/Berlin] Creating booking: User=22, Car=15, Days=2, Amount=24
+[01-Jul-2025 13:07:28 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 13:07:31 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 13:08:09 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 13:24:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getUserByEmail() in C:\xampp\htdocs\NEWCAR\public\reset_password.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\reset_password.php on line 16
+[01-Jul-2025 13:25:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getUserByEmail() in C:\xampp\htdocs\NEWCAR\public\reset_password.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\reset_password.php on line 16
+[01-Jul-2025 13:25:43 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:25:45 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:25:47 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:25:49 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:25:51 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:25:53 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:30:19 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:30:21 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:30:24 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:30:26 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:37:37 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 13:38:10 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\NEWCAR\config\auth.php on line 43
+[01-Jul-2025 14:11:36 Europe/Berlin] PHP Warning:  require_once(../config/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\NEWCAR\public\login.php on line 4
+[01-Jul-2025 14:11:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\NEWCAR\public\login.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\login.php on line 4
+[01-Jul-2025 14:22:59 Europe/Berlin] PHP Warning:  require_once(../config/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:22:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\NEWCAR\public\signup.php:254
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:06 Europe/Berlin] PHP Warning:  require_once(../config/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\NEWCAR\public\signup.php:254
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:21 Europe/Berlin] PHP Warning:  require_once(../config/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\NEWCAR\public\signup.php:254
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:23 Europe/Berlin] PHP Warning:  require_once(../config/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\NEWCAR\public\signup.php:254
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:27 Europe/Berlin] PHP Warning:  require_once(../config/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:23:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../config/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\NEWCAR\public\signup.php:254
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\NEWCAR\public\signup.php on line 254
+[01-Jul-2025 14:24:40 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 14:27:13 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 14:27:15 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 14:27:17 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 14:27:18 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 14:27:24 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 14:27:29 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 350
+[01-Jul-2025 14:27:50 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 344
+[01-Jul-2025 14:28:11 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 344
+[01-Jul-2025 14:30:55 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 348
+[01-Jul-2025 14:31:12 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 348
+[01-Jul-2025 14:31:54 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\admin\adminsubmitform.php on line 344
+[01-Jul-2025 14:33:03 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\admin\adminform.php on line 275
+[01-Jul-2025 14:33:05 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\admin\adminform.php on line 275
+[01-Jul-2025 14:33:08 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\admin\adminform.php on line 275
+[01-Jul-2025 14:33:17 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\admin\adminform.php on line 275
+[01-Jul-2025 14:33:25 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\admin\adminform.php on line 275
+[01-Jul-2025 14:35:20 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\customer\customerform.php on line 348
+[01-Jul-2025 14:38:34 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\manager\managerform.php on line 287
+[01-Jul-2025 14:41:05 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\manager\managerform.php on line 287
+[01-Jul-2025 14:41:08 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\manager\managerform.php on line 287
+[01-Jul-2025 14:41:14 Europe/Berlin] PHP Warning:  Undefined variable $navImageFound in C:\xampp\htdocs\NEWCAR\manager\managerform.php on line 287
+[01-Jul-2025 20:07:31 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\NEWCAR\admin\managecars.php on line 65
+[01-Jul-2025 20:07:59 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in C:\xampp\htdocs\NEWCAR\admin\managecars.php on line 124
